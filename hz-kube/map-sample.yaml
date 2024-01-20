@@ -1,0 +1,8 @@
+apiVersion: hazelcast.com/v1alpha1
+kind: Map
+metadata:
+  name: imap-sample
+spec:
+  hazelcastResourceName: hazelcast-sample
+  backupCount: 2
+  timeToLiveSeconds: 300
